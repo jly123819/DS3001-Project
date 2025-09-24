@@ -1,7 +1,11 @@
-age        : Age in years at the time of record
-sex        : Biological sex of the policy holder (male / female)
-bmi        : Body Mass Index (kg/m²)
-children   : Number of dependent children (integer, ≥ 0)
-smoker     : Smoking status at time of record (yes / no)
-region     : U.S. region of residence (northeast / northwest / southeast / southwest)
-charges    : Annual medical insurance charges in dollars (target variable)
+inspection_id : Unique identifier for each inspection event
+inspection_date : Calendar date of the inspection (Date format)
+facility_type : Type of establishment (e.g., restaurant, grocery store, school)
+risk : City-defined risk level (Risk 1 = High, Risk 2 = Medium, Risk 3 = Low)
+inspection_type : Reason or program for the inspection (e.g., canvass, complaint, license, re-inspection)
+zip : Five-digit ZIP code of the facility location
+city : City name (mostly “Chicago”; used to flag anomalies)
+latitude : Latitude coordinate of the facility
+longitude : Longitude coordinate of the facility
+results : Official outcome of inspection (e.g., pass, pass w/ conditions, fail, out of business)
+violations : Free-text list of cited violations, often numbered (“1. … 2. …”)
