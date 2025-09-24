@@ -1,0 +1,7 @@
+age        : Age in years at the time of record
+sex        : Biological sex of the policy holder (male / female)
+bmi        : Body Mass Index (kg/m²)
+children   : Number of dependent children (integer, ≥ 0)
+smoker     : Smoking status at time of record (yes / no)
+region     : U.S. region of residence (northeast / northwest / southeast / southwest)
+charges    : Annual medical insurance charges in dollars (target variable)
