@@ -2,4 +2,4 @@ The purpose of this project is to build predictive algorithms that estimate whet
 
 Collaborators: Jingzhi Yang, Lingyue Ji, Nate Assefa
 
-Dataset: [City of Chicago’s official Food Inspections dataset](https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5/data_preview))
+Dataset: [City of Chicago’s official Food Inspections dataset](https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5/data_preview)
