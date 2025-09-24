@@ -9,3 +9,11 @@ latitude : Latitude coordinate of the facility
 longitude : Longitude coordinate of the facility
 results : Official outcome of inspection (e.g., pass, pass w/ conditions, fail, out of business)
 violations : Free-text list of cited violations, often numbered (“1. … 2. …”)
+
+## Engineered Features
+viol_count : Count of numbered violations extracted from violations text
+risk_ord   : Ordinal encoding of risk (High = 3, Medium = 2, Low = 1)
+ins_year   : Year extracted from inspection_date
+ins_month  : Month extracted from inspection_date
+ins_wday   : Weekday extracted from inspection_date
+target_fail: Binary target where 1 indicates inspection result is "fail"
